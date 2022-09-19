@@ -4,6 +4,10 @@
   text-align: center;
 }
 
-.landing-page-link:hover {
-  color: #f00;
+.landing-page-img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  max-height: 13rem;
+  margin-bottom: 0.5rem;
 }
