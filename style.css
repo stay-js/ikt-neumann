@@ -1,0 +1,9 @@
+.landing-page-link {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+
+.landing-page-link:hover {
+  color: #f00;
+}
