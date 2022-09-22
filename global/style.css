@@ -26,3 +26,9 @@ main {
   color: #0055ff;
   background-size: 100% 2px;
 }
+
+.title {
+  padding: 4rem;
+  text-align: center;
+  margin-inline: auto;
+}
