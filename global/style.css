@@ -57,7 +57,7 @@ body {
 .gyerekkora-table td,
 .gyerekkora-table th {
   border: 1px solid #ddd;
-  padding: 8px;
+  padding: 0.5rem;
 }
 
 .gyerekkora-cimer {
