@@ -36,3 +36,27 @@ body {
   text-align: center;
   margin-inline: auto;
 }
+
+.landing-page-link {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+
+.landing-page-link img {
+  width: 100%;
+  max-height: 13rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+.gyerekkora-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.gyerekkora-table td,
+.gyerekkora-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
