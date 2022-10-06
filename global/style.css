@@ -52,6 +52,7 @@ body {
 .gyerekkora-table {
   border-collapse: collapse;
   width: 100%;
+  font-size: 0.925rem;
 }
 
 .gyerekkora-table td,
