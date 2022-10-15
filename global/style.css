@@ -25,9 +25,7 @@ body {
   width: fit-content;
 }
 
-.navbar-brand:hover,
-.nav-link:hover,
-.link:hover {
+:is(.navbar-brand, .nav-link, .link):hover {
   color: #0055ff;
   background-size: 100% 2px;
 }
@@ -56,8 +54,7 @@ body {
   font-size: 0.925rem;
 }
 
-.gyerekkora-table td,
-.gyerekkora-table th {
+.gyerekkora-table :is(td, th) {
   border: 1px solid #ddd;
   padding: 0.5rem;
 }
