@@ -58,11 +58,3 @@ body {
   border: 1px solid #ddd;
   padding: 0.5rem;
 }
-
-.max-w-150px {
-  max-width: 150px;
-}
-
-.max-w-250px {
-  max-width: 250px;
-}
