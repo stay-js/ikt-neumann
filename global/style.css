@@ -34,6 +34,30 @@ ul {
   background-size: 100% 2px;
 }
 
+.scroll-top {
+  position: fixed;
+  z-index: 100;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1/1;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 50%;
+  background-color: #6a6a6a;
+  transition: all 200ms ease;
+  transform: translateY(5rem);
+}
+
+.scroll-top:hover {
+  background-color: #525252;
+}
+
+.scroll-top.active {
+  transform: translateY(0);
+}
+
 .title {
   padding: 4rem;
   text-align: center;

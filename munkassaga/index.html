@@ -16,7 +16,10 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
+      defer
     ></script>
+
+    <script src="../global/scrollTop.js" type="module" defer></script>
 
     <link rel="stylesheet" href="../global/style.css" />
 
@@ -359,6 +362,33 @@
         </section>
       </main>
     </div>
+
+    <button
+      type="button"
+      onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+      title="Vissza az oldal tetejére"
+      class="scroll-top"
+    >
+      <svg
+        stroke="currentColor"
+        fill="none"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        color="white"
+        style="color: white"
+        height="24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <desc></desc>
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <line x1="12" y1="5" x2="12" y2="19"></line>
+        <line x1="18" y1="11" x2="12" y2="5"></line>
+        <line x1="6" y1="11" x2="12" y2="5"></line>
+      </svg>
+    </button>
 
     <footer class="footer bg-light text-muted">
       <div class="container">
