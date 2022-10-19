@@ -192,6 +192,75 @@
                   Andrew Grove (Gróf András), aki pedig az Intel vezéreként évente megtöbbszörözte a
                   mikroprocesszorok sebességét.
                 </p>
+                <h3 id="neumann-elvek" class="mt-3">Neumann-elvek</h3>
+                <ol>
+                  <li>
+                    Teljesen elektronikus működés (ez Neumann idejében elektroncsöves felépítést
+                    jelentett, amit később a tranzisztoros, majd az integrált áramkörös felépítés
+                    követett)
+                  </li>
+                  <li>
+                    Kettes számrendszer használata (az összes művelet, pl. összeadás, szorzás,
+                    kettes számrendszerbeli logikai műveletekre redukálható)
+                  </li>
+                  <li>Belső memória használata</li>
+                  <li>
+                    Tárolt program elve. A számításokhoz szükséges adatokat és programutasításokat a
+                    gép azonos módon, egyaránt a belső memóriában (operatív tár) tárolja.
+                  </li>
+                  <li>
+                    Soros utasítás-végrehajtás (az utasítások végrehajtása időben egymás után
+                    történjen; ennek egy alternatívája a párhuzamos utasítás-végrehajtás, amikor
+                    több utasítás egyidejűleg is végrehajtható: ezt a lehetőséget Neumann elvetette)
+                  </li>
+                  <li>
+                    Univerzális felhasználhatóság, Turing-gép (programozhatóság; a különböző
+                    feladatok programokkal legyenek megoldva, nem pedig erre a célra épített
+                    hardverrel)
+                  </li>
+                  <li>
+                    Szerkezet: öt funkcionális egység (aritmetikai egység, központi vezérlőegység,
+                    memóriák, bemeneti és kimeneti egységek)
+                  </li>
+                </ol>
+                <h3 id="neumann-architektura" class="mt-3">
+                  A Neumann-elvű számítógépek elméleti felépítése (a Neumann-architektúra)
+                </h3>
+                <p>Egy Neumann-architektúrájú számítógép a következő egységekből épül fel:</p>
+                <ul>
+                  <li>
+                    központi egység
+                    <ul>
+                      <li>
+                        központi feldolgozó egység
+                        <ul>
+                          <li>központi vezérlő egység</li>
+                          <li>aritmetikai-logikai egység</li>
+                          <li>regiszterblokk</li>
+                          <li>gyorsítómemória</li>
+                          <li>matematikai társprocesszor</li>
+                        </ul>
+                      </li>
+                      <li>operatív tár (memória)</li>
+                    </ul>
+                  </li>
+                  <li>háttértárak</li>
+                  <li>
+                    perifériák
+                    <ul>
+                      <li>input perifériák</li>
+                      <li>output perifériák</li>
+                    </ul>
+                  </li>
+                </ul>
+                <p>
+                  A központi vezérlőegységeket (CPU: Central processing unit), azaz a processzorokat
+                  működésük szempontjából két külön kategóriába sorolhatjuk. Az egyik a
+                  Neumann-architektúra a másik Harvard-architektúra szerint működik. A két
+                  architektúra abban különbözik, hogy a Neumann-elvű esetében megegyezik az adat- és
+                  a programmemória, míg a Harvard-architektúrájú számítógép esetén a program- és
+                  adatmemória különbözik.
+                </p>
               </div>
 
               <div class="col-12">
@@ -263,6 +332,12 @@
               </li>
               <li>
                 <a href="#a-szamitogep-tervezese" class="link text-dark">A számítógép tervezése</a>
+                <ul>
+                  <li><a href="#neumann-elvek" class="link text-dark">Neumann-elvek</a></li>
+                  <li>
+                    <a href="#neumann-architektura" class="link text-dark">Neumann-architektúra</a>
+                  </li>
+                </ul>
               </li>
               <li>
                 <a href="#numerikus-analizis" class="link text-dark">Numerikus analízis</a>

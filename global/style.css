@@ -13,6 +13,10 @@ body {
   gap: 3rem;
 }
 
+ul {
+  list-style: disc;
+}
+
 .navbar-brand,
 .nav-link,
 .link {
