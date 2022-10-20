@@ -40,11 +40,11 @@ ul {
   bottom: 1.5rem;
   right: 1.5rem;
   display: grid;
-  place-items: center;
-  aspect-ratio: 1 / 1;
-  padding: 0.5rem;
+  place-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
   border: none;
-  border-radius: 50%;
+  border-radius: 100%;
   background-color: #6a6a6a;
   transform: translateY(5rem);
   transition: transform 200ms ease;
