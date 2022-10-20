@@ -30,7 +30,7 @@ ul {
 }
 
 :is(.navbar-brand, .nav-link, .link):hover {
-  color: #0055ff;
+  color: #05f;
   background-size: 100% 2px;
 }
 
@@ -45,13 +45,13 @@ ul {
   height: 2.5rem;
   border: none;
   border-radius: 100%;
-  background-color: #6a6a6a;
+  background-color: #666;
   transform: translateY(5rem);
-  transition: transform 200ms ease;
+  transition: all 200ms ease;
 }
 
 .scroll-top:hover {
-  background-color: #525252;
+  background-color: #444;
 }
 
 .scroll-top.active {
