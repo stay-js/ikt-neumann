@@ -46,8 +46,8 @@ ul {
   border: none;
   border-radius: 50%;
   background-color: #6a6a6a;
-  transition: all 200ms ease;
   transform: translateY(5rem);
+  transition: transform 200ms ease;
 }
 
 .scroll-top:hover {
