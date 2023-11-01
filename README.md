@@ -29,7 +29,7 @@ pnpm dev
 ## Linkek:
 
 - [Oldal elérése](https://neumann.znagy.hu)
-- [GitHub Repository](https://github.com/stay-js/neumann)
+- [GitHub Repository](https://github.com/stay-js/ikt-neumann)
 
 ## Oldal elkészítéséheez használt technológiák:
 
