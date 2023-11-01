@@ -1,0 +1,43 @@
+---
+import { navItems } from '~/constants/nav-items';
+import clsx from 'clsx';
+
+const { path } = Astro.props as { path: string };
+---
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid px-4">
+    <a class="navbar-brand" href="/">Neumann János élete</a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-theme="dark"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+        {
+          navItems.map((item) => (
+            <li class="nav-item">
+              <a
+                href={item.path}
+                class={clsx('nav-link', path === item.path && 'active')}
+                {...(path === item.path && { 'aria-current': 'page' })}
+              >
+                {item.name}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </div>
+</nav>
